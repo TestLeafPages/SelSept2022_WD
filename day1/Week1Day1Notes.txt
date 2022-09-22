@@ -1,0 +1,58 @@
+		
+Why we go for Automation testing?
+  ->Automation basically helps to reduce the manual efforts(mechanically repeating)
+  ->It can save lot of time 
+
+Why java?
+   ->Java is a language
+   ->Java is the predominantly prefered language 
+   ->It has lot of open source libraries
+
+   ->IDE-Integrated Develpment Environment
+
+What is a package?
+   ->It is a folder to organize all your codes
+   ->Naming convention-lowerCase
+
+What is a class?
+   ->Class is a testcase.Technially,Class is a Java file
+   ->Constructor
+   ->method
+   ->variables
+   ->main method for execution
+   ->Naming convention->UpperCase
+
+What is method?
+   ->method is a smaller line of code that does some specific operations/Actions
+   ->It is a function written inside a class
+
+Syntax:=
+   1)access modifier
+   2)return Types  
+   3)name
+   4)input arguments
+This is a method signature
+   ->Naming Convention->lowerCase following words should be in UpperCase
+ ex:-launchBrowser()
+	
+What is Primitive Data Types:-
+  1) Age->int(no decimals)
+   short,int,long
+  2)Breakfast->(yes/no,true/false)->boolean
+  3)petrolRate->103.67->float
+  4)double->more than 2 decimals
+  5)1st letter ->char
+  
+  1)int
+  2)boolean  
+  3)float
+  4)double
+  5)char
+  
+Non-Primitive Data Type:-
+=======================
+  String->class
+  name->"Subraja"->It is a sequence of multiple characters
+	
+	
+	
