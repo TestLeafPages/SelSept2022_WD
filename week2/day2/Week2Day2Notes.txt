@@ -1,0 +1,68 @@
+Todays Agenda:
+==============
+   1)9:30-10:00->Attributes and methods 
+   2)10:00-10:30->DropDown
+   3)10:30-10:45->Classroom
+   4)10:45-11:45->Basic Xpath
+   5)11:45-12:15->Classroom
+   6)12:15-12:30->Recap
+   
+Locators:
+==========
+   ->id,name,class,linktext
+   ->tagName
+   ->partialLinktext() 
+
+Methods of the WebElement:  
+=========================
+     sendkeys()->type("")
+	 click()->click
+	 clear()->clear the existing content
+	 getText()->get the text in the element
+	 getAttribute()->get the attribute value in the element
+	 isDisplayed()->will return true if the element is visible and false if the element is hidden
+	 isEnabled()->will return true if the element is enabled and false if it is disabled
+   
+DropDown:
+=========
+   Step1:
+      Find thr webElement which is a dropdown and then convert it to a Select class
+      Using the Select class choose the dropdown given
+ Methods in select class:
+==========================
+     a)selectByVisibleText()
+     b)selectByIndex()->Index starts with 0;
+     c)selectByValue()	 
+	 
+Classroom1:
+===========
+   1)click on Marketing campaign and click on demo (selectByIndex)
+   2)click on Industry and click on retail(selectByValue)
+   3)click on State/Province and click on Arizona(selectByVisibleText).  
+
+Exception:
+==========
+   NoSuchElementException->If the element does not exist in the DOM
+
+Basic Xpath:
+============
+  1)Absoluet xpath-> / ->root tag
+  2)Relative xpath-> //
+syntax:
+=======
+  1)Attribute based Xpath (id,name,classname)
+	 //tagName[@attributeName='attributevalue']
+ex:  //input[@id='username']
+
+  2)text based xpath-:(Black color)
+      //tagName[text()='textvalue']
+ex:-  //label[text()='Username']
+
+  3)Partial match xpath:-
+       //tagName[contains(@attribute,'partialvalue')]
+ex:    //input[contains(@class,'decorative')]	
+   
+   
+   4)IndexBased xpath;
+      (//tagName[@attributeName='attributevalue'])[indexvalue]
+	  
