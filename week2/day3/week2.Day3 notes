@@ -1,0 +1,79 @@
+Todays Agenda:
+==============
+   1)9:30-10:00-->Advanced Xpath!!
+   2)10:00-10:30-->Classroom
+   3)10:30-10:45-->ruto xpath finder
+   4)10:45-11:45-->Classroom
+   5)11:45-12:15-->non-select dd
+   6)12:15-12:30-->Recap!!
+   
+
+Axes based xpath syntax:
+========================
+   1)Parent to Child
+      Find the parent using relative xpath
+	  parent xpath/child tagName
+	ex://form[@id='login']/p  
+       
+   2)Child to Parent
+      Find the child using relative xpath
+	  childxpath/parent::parent tagName
+	  ex: //label[text()='Username']/parent::p
+	     //input[@class='inputLogin']/parent::p
+	  childxpath/..
+	 ex://input[@class='inputLogin']/.. 
+	 
+
+   3)GrandParent to GrandChild
+     Find the grandparent using relative xpath
+	 grandparent xpath//grandchild tagName
+ex:	 //form[@id='login']//input
+
+   4)GrandChild to GrandParent
+   Find the grandchild using relative xpath 
+    grandchild xpath/ancestor::ancestor tagname
+ex:	//input[@class='decorativeSubmit']/ancestor::form
+
+   5)Find by Elder sibling
+      Find the younger sibling using relative xpath
+	  younger xpath/preceding-sibling::elder-tagName
+	  //input[@id='username']/preceding-sibling::label
+	  
+   6)Find by using Younger sibling
+      Find the elder using relative xpath
+	   elder xpath/following-sibling::younger tagName
+ex:	   //label[text()='Username']/following-sibling::input
+       
+   7)Find by using Elder Cousin
+      Find the younger using relative xpath
+	  younger xpath/preceding::elder-tagName
+	  //input[@class='decorativeSubmit']/preceding::input
+    
+   8)Find by using Younger Cousin	
+      Find the elder using relative xpath
+	    elder xpath/following::younger tagName
+ex:		//label[text()='Username']/following::input
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   

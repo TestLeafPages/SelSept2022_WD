@@ -1,5 +1,6 @@
 package week2.day2;
 
+import java.time.Duration;
 import java.util.List;
 
 import org.openqa.selenium.By;
@@ -20,6 +21,7 @@ public class LearnXpath {
 		driver.get("https://www.leafground.com/select.xhtml");
 		// to maximize
 		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		// verify the title
 		WebElement findElement = driver.findElement(By.xpath("//select[@class='ui-selectonemenu']"));
 		Select sec = new Select(findElement);

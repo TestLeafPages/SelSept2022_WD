@@ -1,0 +1,38 @@
+Todays Agenda:
+==============
+   1)9:30-10:00-->Implicit wait and thread.sleep()
+   2)10:00-10:15-->Exception(ISE)
+   3)10:15-10:45-->String methods(replace ALl)
+   4)10:45-11:45-->Classroom(Amazon,Ajio)
+   5)11:45-12:15-->QA
+   6)12:15-12:30-->Recap!!
+   
+   
+   
+Implicit Wait:(30s)(Selenium wait)
+==============
+   9:00 am-9:10 am  
+maximum threshold - 10 mins   
+
+Thread.sleep(5000);(Java wait)
+
+Exception:
+=========
+   Invalid Selector Exception-> When xpath syntax is wrong
+   
+Classroom:
+==========
+   1)Login to amazon website(https://www.amazon.in/)
+   2)Type oneplus pro in the search box("OneplusPro",keys.Enter)
+   3)Press Enter
+   4)Click on the first resulting mobile
+   5)Print the price  in the console 
+   
+   
+Classroom2:
+============
+   1)Login to Ajio website(https://www.ajio.com/)
+   2)Type oneplus pro in the search box("Women",keys.Enter)
+   3)Click on the Sarees check box under Cateogory
+   4)Click on sort by dropdown and click Whats new
+   5)Print the text of the number of items displayed    

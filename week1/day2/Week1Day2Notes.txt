@@ -1,0 +1,125 @@
+ Variables:
+============
+   It means Identification
+Example:
+  dataType variable = value;
+       String    brandName = "Honda"  
+Types of variable:
+  ->Two types of variable
+Global/Instance variable:
+========================
+ ->It means it is declared inside the class
+Advantage:It can be accessed by all the methods inside the class and also the main methods by
+creating an object
+Local Variables:
+================
+  ->It is declared inside the method
+  ->It can be accessed only within that method
+  ->Other methods cannot access it
+ 
+MethodSyntax:
+=============
+  1)Access Modifier
+  2)returnType
+  3)Name
+  4)input arguments  
+	   
+1)Access Modifier:
+===================
+ ->  It specifies who can access it and who cannot
+  a)public-Anyone can access
+      ->Through all the classes within different packages-import
+  b)private-Only you can access
+      ->It is accessible only within that class
+  c)protected-family members,known circle
+  d)default ->people living in the same area 
+      ->It can be accessed inside all the classes within the same package
+	  
+	  
+What is returnType?
+  void:It is something you dont have to return.
+  return:If I want to return something i will use return statement
+  
+Operators:
+==========
+1)Arithmetic Operators:
++,-,*,/,%
+ex:-
+10/5=quotient-2
+10%5=remiander-0
+10%3=1
+10/3=3
+2)Relational Operators
+<,>,<=,>=,!=,==
+5<9
+9<10
+10>9
+4!=5
+4==4
+6>=7
+3)Logical Operators
+&&(AND), ||(OR)
+(5<10) && (20>30)->false->both conditions
+(5<10) || (20>30)->true->any one condition
+4)Assignment Operators
+=
+
+Control Statements:
+===================
+Conditional Statements:
+=======================
+  if 
+  if else
+  else if
+  while
+  do while
+  
+  ForLoop:
+  It is to execute same set of code multiple times
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+	  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
