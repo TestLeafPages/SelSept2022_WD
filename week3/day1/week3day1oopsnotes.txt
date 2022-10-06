@@ -1,0 +1,58 @@
+OOPs:
+==== 
+   ->Object Oriented Programming Structure is a prgramming model based in the concept of "objects"
+which can contain data and logic,data varibles and methods   
+4 Different concepts:
+====================
+    ->Inheritance
+	->Polymorphism
+	->Abstraction
+	->Encapsulation
+	
+Inheritance:
+============
+    ->It is the concept based on the relationship between two similar classes(parent-child) to have
+the common functions 
+   ->To avoid duplicate implementation
+   ->reduce code
+How you will achieve inheritance?
+    extends keyword	
+	
+Types of Inheritance:
+====================
+   1)Single inheritance(Parent-child)
+   2)Multi-level inheritance(Grandparent->parent->Child)
+   3)Multiple inheritance   
+
+Polymorphism:
+============
+   poly-many
+   morphism-forms
+  ->It refers to the ability of a class to provide different implementations of a method.
+  ->Java allows us to perform the same action in many different forms. 
+Types of Polymorphism:
+   ->Overloading
+   ->Overriding   
+  
+Overloading:
+============
+   ->when two or more methodsinside the same class have same signature execpt the input arguments
+   Access modifier
+   returntype
+   method name
+   ->Compile time
+   
+   Input arguments-No of argumentscan be different
+                   Datatypes can be different
+
+Overriding:
+===========
+  -> When two or more methods are within different classes but it should be inherited between them
+and the signature is same but the logic is different
+  -> subclass method overrides the behaviour of the parent class through inheritance
+  ->Runtime Polymorphism
+  Method is same
+  Same arguments
+  logic is different
+  
+	

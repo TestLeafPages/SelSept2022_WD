@@ -1,0 +1,8 @@
+Todays Agenda:
+==============
+   9:30am-10:30am->Abstraction
+   10:30am-11:00am->Classroom
+   11:00am-12:10pm->List,FindElements
+   12:10pm:12:20pm->Classroom
+   12:20pm:12:30->Recap
+   
