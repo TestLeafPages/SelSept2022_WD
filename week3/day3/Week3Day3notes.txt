@@ -1,0 +1,70 @@
+Todays Agenda:
+==============
+   1)9:30am-10:00am->Set
+   2)10:00am-10:30am->Classroom
+   3)10:30am-11:00am->Static keyword
+   4)11:00am-11:30am->Constructor
+   5)11:30am-12:00pm->Classroom
+   6)12:00pm-12:20pm->this,super keyword
+   7)12:20pm-12:30pm->Recap
+   
+Set:
+====
+  ->Set is also an Interface   
+  ->It cannot hold Duplicates
+  
+Implementation Class:
+=====================
+    ->HashSet        -Based on the Hashing ALgorithm(random order)
+    ->LinkedHashSet	 -Based on the Insertion Order(FIFO)
+	->TreeSet        -Based on ASCII order(alphabetic order)
+	
+Methods of Set:
+==============
+    1)size()-> Number of items /ele
+    2)add()->will be added to the particular index based on the implementation class
+    3)remove()->remove a particular element
+    4)clear()->remove all elements 	
+	
+Classroom:
+==========
+   String companyName = "google"->"gole"
+   Remove duplicate character
+   
+Constructor:
+============
+   Constructor is the initial way to instantiate an object->It will initialize the state of an object-
+Types:
+======
+   Default Constructor
+   Parameterized Constructor 
+Constructor chaining:
+=====================
+ -this keyword  
+ -It is used to call one constructor from another constructor 
+ -Can we call one constructor from another constructor  
+ -Constructor call should be the first statement of your constructor
+ 
+super:
+======
+  ->It is a keyword
+  ->It can be achieved only if the parentclass is inherited
+  ->It is used call a method from super class
+
+Classroom:
+===========
+   ->Call seatBelt method from Car class using super keyword in Audi class
+   ->Override handBrake() and try to call that    
+ 
+static:
+=======
+    Object creation is not required.
+	If you update the static data it will override the oldvalue with new value
+  
+variables
+method
+block of code
+  
+   
+	
+	
