@@ -1,0 +1,48 @@
+
+Todays Agenda:
+==============
+    1)9:30-10:30->WebTable
+	2)10:30-11:30->Classroom
+	3)11:30-12:00->multiple dropdown
+	4)12:00-12:20->Classroom
+	5)12:20-12:30->Recap
+	
+	
+WebTable:
+=========
+
+  Table-rows and columns
+<table> -entire table
+   <tbody>-table body
+      <tr>-table row
+        <th>-table header
+        </th>
+     </tr>
+    <tr>
+      <td></td>-table data
+      <td></td>
+      <td></td>
+
+   </tr>
+ </tbody>
+ </table>  
+ 
+ Classroom 1:
+ ===========
+   1)Load https://erail.in/
+   2)Type "MS" in from textbox
+   3)Type "Cape" in to textbox
+   4)Click on sortdate
+   5)Find the TrainName list and get the text 
+   
+How to select multiple dropdown elements:
+=========================================
+    Classroom2:
+    ============
+   1)Load https://www.leafground.com/select.xhtml
+   2)Select all the elements in the dropdown
+   3)Click on Puppetter
+   4)Click on Puppetter and Cypress
+   5)get the text of all the elements in the dropdown   
+	
+	
