@@ -1,0 +1,78 @@
+
+Todays Agenda:
+==============
+  1)9:30am-10:30am->Alert
+  2)10:30am-11:00am->Classroom
+  3)11:00am-12:00pm->Frames
+  4)12:00pm-12:20pm->Classroom
+  5)12:20pm-12:30pm->Recap
+  
+Alert:
+=====
+    ->Alert is an Interface
+    ->It is a pop-up/dialog box which provides some information
+	->It is not inspectable
+
+Types of Alert:
+===============
+   ->Modal dialog
+   ->Non-Modal dialog
+
+Modal Dialog :
+=============
+   1)Simple Alert-It has only one option
+   2)Confirm Alert-It has two options
+   3)Prompt ALert-It has a text box and two options
+   
+Methods:
+========
+   - accept();(Positive Action)
+   - dismiss();(Negative Action)
+   - sendKeys();(Type a value on the prompt box)
+   - getText(); (Read the text)
+   
+Exception:
+==========
+  1)UnhandledAlertException
+     -If you try interacting with DOM elements without closing the alert
+  2)NoAlertPresentException
+     -If you are interacting with an alert through code but alert did not appear
+
+Sweet Alert:
+===========
+    - Inspectable->Inspect and find the element and the action,snapshot can be taken
+   
+Limitation:
+==========
+   you cannot take a snapshot   of an alert
+   
+Classroom:
+===========
+    1)Load the url(https://testleaf.herokuapp.com/pages/Alert.html)   
+	2)Click on Prompt Alert
+	3)Enter a text in the text box 
+	4)Accept the alert
+	5)Get the text and print the statement
+Frame:
+======
+  ->HTML element that helps the developers to organize the set of elements
+  ->iframe tag
+Overloading:
+===========
+   frame(int index)
+   frame(String name or id)
+   frame(WebElement ele)
+defaultContent
+  -come out of the frame   
+Exception:
+=========
+  -NoSuchFrameException  
+
+Classroom1:
+===========
+   1)Load url(https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_prompt)  
+   2)Click TryIt button
+   3)Click ok on the alert
+   4)Print the resulting content
+	
+	

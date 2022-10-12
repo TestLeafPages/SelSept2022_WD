@@ -1,0 +1,61 @@
+https://swisnl.github.io/jQuery-contextMenu/demo.html
+https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_ondblclick
+Todays Agenda:
+==============
+   1)9:30am-10:30am->Actions class
+   2)10:30am-11:00am->Classroom
+   3)11:00am-11:15am->Snapshot
+   4)11:15am-11:30am->Classroom
+   5)11:30am-12:15pm->Q&A
+   6)12:15pm-12:30pm->Recap
+   
+Actions Class:
+===============
+   -> Actions -> Class
+   -> We use Actions class to do mouse Actions in a webpage
+Step:
+======
+   1)Find the element to do mouse actions and store  it
+   2)Use Actions class and create an object
+   3)Using the instance call the methods required by passing the WebElement in the constructor
+   4)It is mandatory to put perform().
+   
+1)moveToElement()
+2)click()
+3)contextClick()
+4)doubleClick()
+5)dragAndDropBY() 
+6)dragAndDrop()
+7)clickAndHold()
+8)scrollToElement()
+
+Classroom:
+==========
+   1)Login to https://www.ajio.com/
+   2)Move to kids
+   3)click on soft toys
+   4)mousehover on the first image and get the text of Quick view
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
