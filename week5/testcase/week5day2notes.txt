@@ -1,0 +1,84 @@
+Today's Agenda:
+==============
+   1)9:30-10:30->Annotations
+   2)10:30-11:00->Classroom+Break
+   3)11:00-12:00->Attributes
+   4)12:00-12:20->Classroom
+   5)12:20-12:30->Recap
+   
+Annotations Hierarchy :
+=======================
+
+@BeforeSuite
+
+            @BeforeTest
+
+                        @BeforeClass
+
+                                    @BeforeMethod
+
+                                                @Test (Mandatory)
+
+                                    @AfterMethod
+
+                        @AfterClass
+
+            @AfterTest
+
+@AfterSuite      
+
+Classroom:
+==========
+    1)Understand the common test steps that are repeating
+	2)Push those lines of code to @BeforeMethod and to @AfterMethod
+	3)Place them inside the common class BaseClass
+	4)Extend the BaseClass from the testcases (and remove the duplicated code)
+	5)Run and confirm
+Attributes:
+===========
+invocationCount:
+  -The number of times this method should be invoked.
+  -use it when: you like to create data for same information
+
+timeOut:
+========
+ - The maximum number of milliseconds this test should take.Otherwsise mark test as fail
+ - Use it when: you like to benchmark the performance of the test steps 
+	
+invocationTimeout:
+  - The maximum number of milliseconds this test should take for the cumulated time of all
+the invocationCounts
+  -This attribute will be ignored if invocationCount is not specified
+
+priority:
+  -Lower priorities will be executed first
+  -default value-0
+
+dependsOnMethods: 
+  -The lists of methods this methods depends on
+  -If the dependent method got failed the status will be marked as skipped for the other method
+
+enabled=false:
+   -To ignore testcases from execution
+
+
+100
+  vino-50
+  Divya-10
+  Praveena-30  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,59 @@
+Todays Agenda:
+=============
+   1)9:30-10:30->TestNG Basics
+   2)10:30-11:30->Break+Classroom
+   3)11:30-12:00->TestNG-Xml
+   4)12:00-12:20->Classroom
+   5)12:20-12:30->Recap
+   
+Limitations:
+============
+   1)One by one
+       -Time consuming effort
+       -Same data
+       -Manually someone have to be present
+       -Expectation:Run automatedly-Parallel
+  2)There is no reporting
+      -Expectation:Atleast a basic report(how many passed,failed,skipped)
+  3)There is no way to filter the failed testcases
+      -Expectation:automated retry
+  4)To run multiple testcases    
+      -Expectation:Automated grouping would be better 
+
+TestNG:
+======
+   -Test Execution framework
+   -Cedric
+   
+Advantages:
+==========
+   1)Sequential and parallel execution of multiple testcases 
+   2)Gives the test execution status(Pass/Fail)
+   3)Execute the testcases with mutiple data    
+   4)Can Control the test execution with the help of annotations and attributes
+   5)Retry the failed testcases
+   
+2 Step process:
+===============
+   1)TestNG as plugin(To run as testng xml file)
+   2)TestNG as jar(To understand the TestNG Software)
+ 
+Process to convert a Java code to a TestNG code:
+===============================================
+    1)Change the main method to a normal method   
+	     -remove static
+		 -remove the arguments
+		 -change main to a meaningful name
+	2)Add the Annotation (@Test) on top of the method
+    3)Now,run the test!	
+   
+How to run multiple testcases through TestNG?
+     1)select the testcasesthat you like to run together
+     2)Convert them as TestNG->convert to testng
+     3)This will generate testngxml file
+     4)Click the XML file and open the Source tab
+
+XML structure:
+    Suite : All testcases together in a xml
+    Test: Map it as a module of your application	
+   

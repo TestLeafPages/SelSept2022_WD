@@ -1,0 +1,35 @@
+
+Todays Agenda:
+=============
+    9:30-10:30->Read data from Excel
+	10:30-11:00->Classroom
+	11:00-12:00->Integration,Crossbrowser testing
+	12:00-12:20->Classroom
+	12:20-12:30->Recap
+	
+How to read data from Excel?
+       
+      -Apache POI(accessing MS office software) 
+      -Excel extension - .xlsx
+
+	XSSFWorkbook(File name with ext .xlsx)
+	   -worksheet (Sheet1)
+	      -Rows 
+		     Column(Cell)
+			 
+			 
+Steps:
+    ->Create a new folder
+         Right click on the project->New->Folder->name it as data->finish
+    ->Right Click on the data folder ->open with system explorer->New Xcel->Save->enter the data and sava and close
+	
+	
+        	BeforeClass->DataProvider->BeforeMethod
+			
+Integrating Apache POI with TestNG:
+=====================================
+   1)Convert the method with return type as String[][];
+   2)Make sure to push all the excel data to the array
+   3)Delete hardcoded data of dataProvider and replace with read excel
+   4)Run CreateLead and EditLead and confirm
+    			

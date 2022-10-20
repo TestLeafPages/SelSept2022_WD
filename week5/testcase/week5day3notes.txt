@@ -1,0 +1,47 @@
+Todays Agenda:
+==============
+   1)9:30-10:30->Static Parameterization
+   2)10:30-11:00->Classroom
+   3)11:00-12:00->Dynamic Parameterization
+   4)12:00-12:20->classroom
+   5)12:20-12:30->Recap
+   
+   
+Parameterization:
+================
+   -No hardCoding of data inside the java class.
+   -Preferred to automate them by passing from an external source(excel,testng-xml)
+
+2 Types:
+========
+   1)Static :(Parameter)
+        If it is common across multiple testcases then you label ->xml(testng-xml)
+         Examples-url,username,password
+   2)Dynamic:(DataProvider)
+        It is specific to the testcase . Cannot reuse most of them.->(excel)   
+		
+Steps:
+=====
+   1)Identify the data that are needed to be static in the xml(url,username,password)
+   2)Add parameter tag for each one of these data in the xml file
+   3)Map the parameters in the BaseClass using @Parameters
+        Note:The names should exactly match the names in the xml
+   4)Use that parameters inside the method using arguments
+       Note: Sequence matters but the argument name doesnt matters
+   5)Replace the arguments with the hardcoded value	   
+   
+Steps:
+=====
+    1)Identify the data that are need to be dynamic for the particular testcase
+         -CreateLead : companyName,firstName,lastName,phoneNumber
+		 -Edit Lead : phoneNumber,companyName
+    2)Create a method to pass data with @DataProvider 
+	3)Create  Input array with number of columns and rows
+	   -Index starts with 0;
+	4)Return the data back to the calling class
+	5)REcieve this data in the testcase
+	   -use dataProvider attribute
+	   -Use that arguments inside the method
+	6)Replace the hardcoded values.   
+	
+	   
