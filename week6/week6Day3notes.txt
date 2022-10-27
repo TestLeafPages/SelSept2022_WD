@@ -1,0 +1,58 @@
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+Today's Agenda:
+==============
+   ExtentReport-Aventstack-3.1.5
+   
+   - Can attach screenshot for each step
+   - Can have report based on differeny author
+   - Can have report based on different category
+   - Consolidated dashboard with graphs
+   
+ExtentClasses:
+=============
+    ExtentHTMLReporter
+    ExtentReport
+    ExtentTest
+    MediaEntityBuilder
+
+Steps to Integrate ExtentReport:
+================================
+     1)Create a startReport() in BaseClass with @BeforeSuite
+	      -Add the common code for all the testcases(first 4 lines of code)
+	 2)Create a stopReport() in BaseClass with extent.flush() and apply @AfterSuite	
+     3)Create testcaseDetails()	 with testDetails code  
+        -Declare testName,testDescription,testAuthor,testCategory as global variables
+        -Replace the hardcoded values with variables
+        -Apply @BeforeClass for thsi method
+     4)Assign the testcaseDetails in testCase level at @BeforeTest		
+   
+   

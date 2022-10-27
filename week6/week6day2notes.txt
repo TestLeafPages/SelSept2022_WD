@@ -1,0 +1,27 @@
+Today's Agenda:
+==============
+     1)9:30-10:00->Static Parameterization in POM
+	 2)10:00-10:45->Dynamic Parameterization in POM
+	 3)10:45-11:15->Classroom
+	 4)11:15-11:45->Shadow Dom
+	 5)11:45-12:00->Classroom
+	 6)12:00-12:25->JavaScript Click
+	 7)12:25-12:30->Recap
+	 
+How to Parameterize the data?
+	  1)Create a new package(utils) and copy the ReadExel class from the previous project and paste it here
+	  2)Create a data folder and create xcel sheets
+	  3)Declare the ExcelFileName globally
+	  4)Create a method for @DataProvider and call the ReadExel class
+	  5)Integrate @Test with dataProvider attribute
+	  6)Pass the inputs as arguments in the testcase method level and replace the hardcoded values
+	  7)In the testcase create a method to mention the ExcelFileName and annotate with @BeforeTest
+	  
+	  
+JavaScript Click
+================
+     1)when u click on a webelement -> may get an exception-> JavaScriptException / ElementClickInterceptedException
+	 Steps:
+	    ->Find the element and store it in a WebElement
+		
+		driver.executeScript("arguments[0].click();", webelement);

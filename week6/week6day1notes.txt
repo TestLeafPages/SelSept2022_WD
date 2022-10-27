@@ -1,0 +1,40 @@
+Today's Agenda:
+===============
+     1)9:30-10:45->POM introduction
+	 2)10:45-11:00->Break
+	 3)11:00-12:00->Setup for sequential
+	 4)12:00-12:20->Classroom
+	 5)12:20-12:30->Recap
+	 
+PageObjectModel:
+===============
+   It is a design pattern to build the framework
+Framework:
+==========
+   The group of testcases which is designed in a pattern or structure
+   
+Advantages:
+==========
+    1)Easy maintenance
+	2)Increase Productivity]
+	3)Maintain uniformity
+	4)Reduce duplicate code
+	5)Better reporting
+
+
+Steps for POM:
+=====
+   1)Create BaseClass for common variables and methods
+   2)Create Java classes for each page that we navigate in the application
+   3)All the java classes for pages should extends BaseClass  
+   4)Create methods for each action in the respective classes for pages 
+   5)Each method in the pages should have return type based on where the control goes after the action
+   6)Create a java class for testcase and extends with BaseClass   
+	 
+Steps for Parallel Execution:
+==============================
+   1)Remove static from driver in the BaseClass	 
+   2)Create public constructor in all the pages with ChromeDriver as argument
+   3)Assign the local variable to the global variable(this.driver=driver)
+   4)Pass the driver in the constructor call (testcases+pages)
+   
