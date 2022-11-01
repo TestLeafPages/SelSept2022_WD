@@ -1,0 +1,40 @@
+Today's Agenda:
+==============
+    1)9:30-10:30->How to pass muliple data 
+	2)10:30-11:30->Hooks Implementation
+	3)11:30-12:30->POM with cucumber
+	
+Background:
+==========
+  -It is used to have the common preconditions 
+Disadvantage: 
+  -It is applicable only for a particular feature file . The same Background steps cannot be used in 
+the other feature files
+
+How to pass multiple data?
+   -Scenario Outline
+
+
+Hooks :
+   @Before
+   @After
+
+io.cucumber.java.InvalidMethodException: You're not allowed to extend classes that define Step Definitions or hooks. class steps.StepDefinition 
+extends class steps.HooksImplementation   
+  
+Tags:
+=====
+   
+Retry Failed Testcase Programatically
+=====================================
+   
+IRetryAnalyzer  - Interface 
+
+TestNG Listener:
+================
+   IAnnotation Transformer-Interface
+
+
+
+1)test-output folder->testng-failed.xml   
+	

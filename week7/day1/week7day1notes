@@ -1,0 +1,93 @@
+Today's Agenda:
+===============
+   1)9:30-10:00->Cucumber Introduction
+   2)10:00-10:30->Layers
+   3)10:30-11:00->Classroom
+   4)11:00-12:00->StepDefintion,Runner
+   5)12:00-12:20->Classroom
+   6)12:20-12:30->Recap
+   
+Cucumber-Behaviour Driven Development:
+=====================================
+    -BDD Automation tool
+TDD:-
+=====
+  -Test Driven Development
+  -Write the testcases first
+  -Get the approval for the testcases
+  -Development should be based on the testcases
+  
+  Cons:
+     -Lot of negative testcases covered rather than the positive testcases
+
+ATTD:=
+=====
+  -Acceptance Test Driven Development
+
+    -Write the acceptance testcases first 
+    -Develop the software based on the acceptance testcases
+
+Cons:
+   -Communication gap between Techical and non-Technical Team
+
+
+BDD:
+===
+   -To address the communication gap between the tech and non-tech team
+   
+   -Write the acceptance testcases first using common language
+      -common language:Understandable both by tech and non-Technical team
+	
+3 Layers of Cucumber:
+=====================
+    1)Feature        - File to write the BDD Testcases (flat file)
+    2)StepDefinition - Implement the test step using Java/Selenium
+    3)Runner	     -  TestNG for execution
+	
+	  
+Gherkin keywords:
+=================
+
+     Feature    used to describe the functionality 
+	 Scenario   Used to describe a testcase
+	 Given      Used to represent  pre-condition
+	 When       Used to represent the test step/condition
+	 Then       Used to represent expected result for positive scenario
+	 But        Used to represent expected result for negative scenario
+	 And        Used as a conjunction when we have BDD keyword repeating consequtively
+	 
+	 
+Runner:
+   AbstractTestNGCucumberTests	 
+
+
+
+How to parameterize the data?
+ ============================
+    1)Enclose the data in the feature file with single quote(' ')
+	2)In the StepDefinition replace the data with {string}
+	3)Pass the arguments in the method and replace the hardoded data with arguments
+	
+	
+Exception:
+-=========
+  UndefinedStepException	
+
+
+
+
+
+
+
+
+
+
+
+	  
+
+
+
+
+
+   
+	
